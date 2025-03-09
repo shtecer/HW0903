@@ -72,7 +72,6 @@ public class Main {
                 System.out.println("В вагоне имеются сидячие места");
             }
         }
-
         int one = 5;
         int two = 8 ;
         int three = 3;
