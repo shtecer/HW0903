@@ -74,7 +74,7 @@ public class Main {
         }
 
         int one = 5;
-        int two = 9 ;
+        int two = 8 ;
         int three = 3;
         if (one > two) {
             if (one > three) {
