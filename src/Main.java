@@ -25,17 +25,17 @@ public class Main {
             System.out.println("Если скорость " + speed + ", то можно ездить спокойно");
         }
 
-        if (age >= 2 && age <6) {
+        if (age >= 2 && age <=6) {
             System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в детский сад");
         }
         else {
-            if (age >= 7 && age < 17) {
+            if (age >= 7 && age <= 17) {
                 System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в школу");
             } else {
-                if (age >= 18 && age < 24) {
+                if (age >= 18 && age <= 24) {
                     System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в университет");
                 } else {
-                    if (age >= 24) {
+                    if (age > 24) {
                         System.out.println("Если возраст человека равен " + age + ", то ему пора ходить на работу");
                     }
                 }
